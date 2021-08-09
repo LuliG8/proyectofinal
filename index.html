@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Olimpa Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="icon" href="Images/icon.png">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    
+<!-- HEADER -->
+<div class="banner">
+    <p>Envíos gratis dentro de CABA &nbsp &nbsp • &nbsp &nbsp Envíos a todo el país  &nbsp &nbsp • &nbsp &nbsp  Hasta 12 cuotas sin interés</p>
+</div> 
+
+<header> 
+    <nav class="navbar1">
+
+        <div class="menuSmall">
+                <a href="index.html"><img src="Images/prueba.png" alt="Logo" class="logoDePagina"></a>
+                    <ul>
+                    <li><span class="iconify iconSearchMS icon" data-icon="feather:search" data-inline="false"></span></li>
+                    <li><a href="#"><span class="iconify iconCart icon" data-icon="fluent:cart-16-regular" data-inline="false"></span></a></li>
+                    <li><a href="#"><span class="iconify menuHamburguer icon" data-icon="whh:menu" data-inline="false"></span></a></li>
+                    </ul>
+        </div>
+
+        <div class="menuDesktop">
+            <div class="flexLogo">
+                <div>
+                    <a href="index.html"><img src="Images/prueba.png" alt="Logo" class="logoDePagina"></a>
+                </div>
+
+
+
+                <div class="registro">
+                    <ul>
+                        <li><a href="#" class="cuenta">Iniciar Sesión</a></li>
+                        <li><span>/</span></li>
+                        <li><a href="#" class="cuenta">Registrarse</a></li>
+
+                        <li type="button" class="position-relative"><div class="compras"> Mi compra
+                            <span class="iconify iconCart" data-icon="fluent:cart-16-regular" data-inline="false"></span></div>
+                            <span class="badge rounded-pill badgeCart">
+                                0
+                            <span class="visually-hidden">unread messages</span>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+                    <div class="menuBar">
+                        <ul>
+                            <li><a href="index.html" class="navLi">HOME</a></li>
+                            <li><a href="productos.html">PRODUCTOS</a></li>
+                            <li><a href="armatudiseno.html">ARMA TU DISEÑO</a></li>
+                            <li><a href="sobrenosotros.html">SOBRE NOSOTROS</a></li>
+                            <li><a href="contacto.html">CONTACTO</a></li>
+                        </ul>
+                        <div>
+                            <form action="#" class="buscador">
+                                <label for="buscador" hidden>Ingresa tu busqueda</label>
+                                <input type="text" id="buscador" required placeholder="Buscá un producto...">
+                                <button type="submit" class="btn btnForm">
+                                    <span class="iconify iconSearch" data-icon="feather:search" data-inline="false"></span>  
+                                </button>
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+        </div>     
+    </nav>
+</header>   
+
+<main>
+
+<!-- ICONO DE WHATSAPP: Cambiar de seccion en el HTML -->
+<span class="iconify" data-icon="logos:whatsapp" data-inline="false" id="whatsapp"></span>
+
+<!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+        </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+</div> -->
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+        <img src="https://i.pinimg.com/564x/02/24/39/022439cf1203a9ec70c81d8cea0c5992.jpg" class="d-block w-100 heroImg1 img-fluid" alt="carrusel-lampara">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>OLIMPA DESIGN</h5>
+        <p>Los mejores productos para tu hogar.</p>
+        <button class="btn btnCarousel">Comprar</button>
+        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+        <img src="Images/cliente-diseno4.jpg" class="d-block w-100 heroImg2 img-fluid" alt="carrusel-nuestrodiseno">
+        <div class="carousel-caption d-none d-md-block" id="cr2">
+        <h5>Armamos tu diseño</h5>
+        <p>Nos encargamos de armar diseños personalizados a medida para vos.</p>
+        <button class="btn btnCarousel">Ver más</button>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="Images/pd-prod1.jpg" class="d-block w-100 heroImg3 img-fluid" alt="carrusel-mesa">
+        <div class="carousel-caption d-none d-md-block" id="cr3">
+        <h5>Nuevos lanzamientos</h5>
+        <p>Mirá los nuevos lanzamientos del mes de Julio.</p>
+        <button class="btn btnCarousel">Ver más</button>
+        </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="belowhero">
+    <div class="belowhero__container belowhero__container--borderright">
+        <span class="iconify belowhero__icon" data-icon="ic:baseline-design-services" data-inline="false"></span>
+        <h3>
+            Armá tu diseño
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nostrum.</p>
+    </div>
+
+    <div class="belowhero__container belowhero__container--borderright">
+        <span class="iconify belowhero__icon" data-icon="carbon:help-desk" data-inline="false"></span>
+        <h3>
+            Asesorate
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nostrum.</p>
+    </div>
+
+    <div class="belowhero__container">
+        <span class="iconify belowhero__icon" data-icon="bx:bxs-home-heart" data-inline="false"></span> 
+        <h3>
+            Decorá tu hogar
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nostrum.</p>
+    </div>
+</div>
+
+<!-- Nuevos Lanzamientos -->
+<section class="productos">
+    <div class="titulosEmojis">
+        <i class="em em-star-struck" aria-role="presentation" aria-label="GRINNING FACE WITH STAR EYES"></i>
+    <h2>Nuevos Lanzamientos</h2>
+        <i class="em em-fire" aria-role="presentation" aria-label="FIRE"></i>
+    </div>
+    
+    <article class="productos productosGallery">
+        <div class="cardProdGallery">
+            <div class="cardImg" id="prod1"></div>
+            <div class="cardText">
+                <h3>Mesa de Luz Nikita</h3>
+                <span>$10.000</span>
+                <a href="#" class="verMas">Ver más</a>
+            </div>
+        </div>
+
+        <div class="cardProdGallery">
+            <div class="cardImg" id="prod2"></div>
+            <div class="cardText">
+                <h3>Mesa de Luz Kuzco</h3>
+                <span>$12.000</span>
+                <a href="#" class="verMas">Ver más</a>
+            </div>
+        </div>
+
+        <div class="cardProdGallery">
+            <div class="cardImg" id="prod3"></div>
+            <div class="cardText">
+                <h3>Cómoda Nala</h3>
+                <span>$12.000</span>
+                <a href="#" class="verMas">Ver más</a>
+            </div>
+        </div>
+
+        <div class="cardProdGallery">
+            <div class="cardImg" id="prod4"></div>
+            <div class="cardText">
+                <h3>Kit Office</h3>
+                <span>$1.500</span>
+                <a href="#" class="verMas">Ver más</a>
+            </div>
+        </div>
+    </article>
+    <!-- Rever HR mas adelante -->
+    <hr>
+
+</section>
+
+
+<!-- Arma tu diseño section -->
+<!-- ELIMINE UN SECTION QUE CONTENIA EL DIV --> 
+    <div class="armaTuDiseno">
+        <h2>Armá Tu Diseño</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere assumenda doloribus quibusdam nulla repellendus omnis doloremque, aliquam neque adipisci similique quia perspiciatis deleniti, laudantium quidem? Aperiam architecto repudiandae repellendus.</p>
+        <a href="armatudiseno.html">Probar</a>
+    </div>
+
+<!-- Categorias -->
+    <div class="categoriasIndex">
+        <div class="cardCategory" id="cardCategory1">
+            <img src="Images/categoria1.jpg" alt="Living">
+        </div>
+
+        <div class="cardCategory" id="cardCategory2">
+            <img src="Images/categoria2.jpg" alt="Living">
+        </div>
+
+        <div class="cardCategory" id="cardCategory3">
+            <img src="Images/categoria3.jpg" alt="Baño">
+        </div>
+
+        <div class="cardCategory" id="cardCategory4">
+            <img src="Images/categoria4.jpg" alt="Organizadores">
+        </div>
+    </div>  
+    
+
+<!-- Promos destacadas  -->
+
+<section class="productos">
+    <div class="titulosEmojis">
+        <i class="em em-tada" aria-role="presentation" aria-label="PARTY POPPER"></i>
+    <h2>Promociones Destacadas</h2>
+        <i class="em em-boom" aria-role="presentation" aria-label="COLLISION SYMBOL"></i>
+    </div>
+    
+    <article class="productos productosGallery">
+
+        <div class="cardProdGallery">
+            <div class="cardImg" id="prodProm1"></div>
+            <div class="cardText">
+                <h3>Escritorio Happy</h3>
+                <span>$10.000</span>
+                <a href="#" class="verMas">Ver más</a>
+            </div>
+        </div>
+
+        <div class="cardProdGallery">
+            <div class="cardImg" id="prodProm2"></div>
+            <div class="cardText">
+                <h3>Cómoda Cleopatra</h3>
+                <span>$10.000</span>
+                <a href="#" class="verMas">Ver más</a>
+            </div>
+        </div>
+
+        <div class="cardProdGallery">
+            <div class="cardImg" id="prodProm3"></div>
+            <div class="cardText">
+                <h3>Organizador de Baño Noe</h3>
+                <span>$20.000</span>
+                <a href="#" class="verMas">Ver más</a>
+            </div>
+        </div>
+
+        <div class="cardProdGallery">
+            <div class="cardImg" id="prodProm4"></div>
+            <div class="cardText">
+                <h3>Macetero Colgante Minimal</h3>
+                <span>$1.200</span>
+                <a href="#" class="verMas">Ver más</a>
+            </div>
+        </div>
+
+    </article>
+</section>
+
+<!-- INSTAGRAM MESSAGE -->
+<div class="instagramMsg">
+<span>Ahora podes encontrarnos en Instagram</span>
+</div>
+<!-- SUSCRIBIRSE -->
+
+<div class="suscribirIndex">
+    <div class="suscribeImg"></div>
+    <div class="suscribeForm">
+        <h3>Suscribite a nuestro newsletter</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa tempora repellendus quam, voluptatibus accusamus dolorem aut voluptates reprehenderit vitae laudantium!</p>
+
+        <form action="#" class="suscripcionIndex">
+            <label for="newsletter" hidden>Deja tu mail para suscribirte</label>
+            <input type="email" id="newsletter" required placeholder="usuario@ejemplo.com">
+            <button type="input">Suscribirme</button>
+        </form>  
+            <div><span>*Podés desuscribirte de nuestro newsletter si en algún momento lo deseas</span></div>
+    </div>
+</div>
+
+<!-- Medios de Pago -->
+<section class="mediosDePago">
+    <div class="metodos">
+        <h3>Medios de Pago</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, libero!</p>
+        <img src="Images/tarjeta.png" alt="tarjeta"> 
+    </div>
+    <div><span>+</span></div>
+    <div class="metodos">
+        <h3>Formas de envío</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, libero!</p>
+        <img src="Images/correo.png" alt="formasenvio"> 
+    </div>
+</section>
+
+<!-- Cambios y devoluciones -->
+<!-- <section class="faq">
+<div>
+    <span class="iconify faq" data-icon="ic:baseline-published-with-changes" data-inline="false"></span>
+    Cambios y devoluciones
+</div>
+
+
+<div>
+    <span class="iconify faq" data-icon="ic:outline-clean-hands" data-inline="false"></span>
+    Cuidados del producto
+</div>
+
+<div>
+    <span class="iconify faq" data-icon="akar-icons:shopping-bag" data-inline="false"></span>
+    Cómo comprar
+</div>
+
+<div>
+    <span class="iconify faq" data-icon="mdi:truck-fast-outline" data-inline="false"></span>
+    Formas de Envío
+</div>
+</section> -->
+
+</main>
+
+<footer>
+    <section class="sectionFooter">
+        <div class="suscripcionFooter">
+            <label for="newsletter" hidden>Deja tu mail para suscribirte</label>
+            <input type="email" id="newsletter" required placeholder="usuario@ejemplo.com">
+            <button type="input">Suscribirme</button>
+        </div>
+        
+        <div class="redes">
+            <h3>Redes</h3>
+        <ul>
+            <li><a href="#">
+                <span class="iconify fb" data-icon="entypo-social:facebook" data-inline="false"></span>
+            </a></li>
+            <li><a href="#">
+                <span class="iconify ig" data-icon="ant-design:instagram-filled" data-inline="false"></span>
+            </a></li>
+            <li><a href="#"><span class="iconify pn" data-icon="fa:pinterest-square" data-inline="false"></span></a></li>
+        </ul>
+        </div>
+        
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <ul>
+            <li>Av. Tamborini 5400 - Villa Urquiza, CABA</li>
+            <li>+54 11 35433453</li> 
+            <li>contacto@olimpadesign.com</li>  
+            </ul>
+        </div>
+        
+        <div class="mapa">
+            <h3>Mapa de sitio</h3>
+        
+            <ul class="mapaList">
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        </section>
+    
+    <div class="pagosFooter">
+    <p>Metodos de Pago
+        Formas de envío
+    </p>
+    </div>
+    
+    <div class="copyright">
+        <p>
+        
+            Copyright &copy; 2021
+    
+        </p>
+    </div>
+    
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

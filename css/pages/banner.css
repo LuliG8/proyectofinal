@@ -1,0 +1,24 @@
+
+
+.banner{
+    background-color: #4F4141;
+}
+
+.banner p{
+    color: white;
+    /* font-style: italic; */
+    font-size: .7em;
+    text-transform: uppercase ;
+    text-align: center;
+    margin-bottom: unset;
+    padding: .6em 0 .3em 0;
+}
+
+.banner .bannerUnderNav{
+    color: white;
+    font-style: italic;
+    text-transform: none;
+    font-size: .8em;
+    text-align: center;
+    padding: .6em 0 .3em 0;
+}

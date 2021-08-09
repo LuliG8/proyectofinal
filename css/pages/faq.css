@@ -1,0 +1,43 @@
+.productosFAQ{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 5em;
+    align-items: center;
+    margin: 2em 2em 2em 2em;
+    padding-top: 2em;
+}
+
+.faq {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 120px;
+    gap: .3em;
+}
+
+.faqBorder {
+    padding-right: 2em;
+    border-right: 1px solid black;
+}
+
+.faqIcon{
+    width: 5em;
+    height: 5em;
+    color: white;
+    background-color: #F3D848;
+    padding: .2em;
+    border-radius: 2em;
+}
+
+.faq h3{
+    color: #A79F0C;
+    font-weight: 800;
+}
+
+.faq p{
+    color: black;
+    padding-top: .2em;
+    font-size: 1em;
+    font-weight: 600;
+}

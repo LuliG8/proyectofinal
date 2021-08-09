@@ -1,0 +1,90 @@
+
+.btnProd {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnProd a {
+    text-decoration: none;
+    border: 2px solid #94C75B;
+    padding: 15px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+}
+
+.btnProd a::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -2px;
+    width: calc(100% + 6px);
+    height: calc(100% - 10px);
+    background-color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    transform: scaleY(1);
+}
+
+.btnProd a:hover::before {
+    transform: scaleY(0);
+}
+
+.btnProd a::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+    background-color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    transform: scaleX(1);
+}
+
+.btnProd a:hover::after {
+    transform: scaleX(0);
+}
+
+
+/* SUSCRIPCION FOOTER */
+
+.suscripcionFooter {
+    display: flex;
+    flex-flow: row;
+}
+
+.suscripcionFooter input {
+    /* width: 100%; */
+    height: 1.6em;
+    border: .15em solid white;
+    border-top-left-radius: .4em;
+    border-bottom-left-radius: .3em;
+    overflow: hidden;
+    padding: .3em .7em;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.suscripcionFooter button{
+    background-color: lightgray;
+    width: 110px;
+    height: 2.3em;
+    color: black;
+    border: none;
+    border-top-right-radius: .3em;
+    /* border-bottom-right-radius: .3em; */
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: center;
+    font-size: .7em;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}

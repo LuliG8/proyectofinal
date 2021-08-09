@@ -1,0 +1,171 @@
+.btn .badge {
+    top: 0;
+}
+
+.carousel {
+    height: 60vh;
+}
+
+.carousel-item {
+    height: 60vh;
+}
+
+.carousel img{
+    overflow: hidden;
+}
+
+.heroImg1 {
+    margin-top: -250px;
+}
+
+#cr2{
+    color: white;
+}
+
+
+.heroImg2 {
+    margin-top: -400px;
+}
+
+.heroImg3 {
+    margin-top: -500px;
+}
+
+.carousel-caption{
+    top: 10em;
+}
+
+.btnCarousel{
+    max-width: 10em;
+    margin-top: 2em;
+    padding: .8em;
+    color: white;
+    background-color: #F3D848;
+    font-size: 1.2rem;
+    border-radius: .4em;
+    text-transform: uppercase;
+    border: none;
+}
+
+.btnCarousel:hover{
+    background-color: white;
+    color: #F3D848;
+    box-shadow: 3px 3px 50px rgba(0, 0, 0, .15);
+}
+
+.carousel-indicators {
+    z-index: 10;
+}
+
+.marca{
+    font-weight: 500;
+    color: #B28604;
+}
+
+.container {
+    height: 50vh;
+    margin-bottom: 16em;
+}
+
+.row {
+    height:80%;
+    margin: 1em;
+}
+
+.row > div {
+    position: relative;
+}
+
+.row > .col-6 > a{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.row > .col-2 > a{
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 16%;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.row > .col-3 > a{
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 26%;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.row > div:hover{
+    filter:saturate(0%);
+    filter: hue-rotate(50%);
+}
+
+.row > div:hover a{
+    display: block;
+    position: absolute;
+    color: white;
+    background-color: #B28604;
+    text-decoration: none;
+}
+
+
+.col-6, .col-3, .col-2 {
+    margin-right: .8em;
+}
+
+.colIm1 {
+    background: url("https://http2.mlstatic.com/D_NQ_NP_920736-MLA32287165565_092019-O.webp") no-repeat 100% 80% / cover;
+    height: 100%;
+}
+
+.colIm2{
+    background: url("../../Images/prod.jpg") no-repeat center / cover;
+    height: 100%;
+}
+
+.colIm3{
+    background: url("../../Images/pd-prod1.jpg") no-repeat 100%/ cover;
+    height: 100%;
+}
+
+.colIm4{
+    background: url("../../Images/pd-prod3.jpg") no-repeat center/ cover;
+    height: 100%;
+}
+
+.colIm5{
+    background: url("../../Images/us-pic3.jpg") no-repeat center/ cover;
+    height: 100%;
+}
+
+.colIm6{
+    background: url("https://http2.mlstatic.com/D_NQ_NP_997887-MLA32287092500_092019-O.webp") no-repeat center/ cover;
+    height: 100%;
+}
+
+.breadcrumb{
+    margin-top: 1em;
+}
+
+.bc {
+    color: #D9A27B;
+}
+
+.breadcrumb-item.active {
+    color: #D9A27B;
+}
+
+.page-link {
+    color: green;
+}

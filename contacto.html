@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Olimpa Design</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <link rel="icon" href="Images/icon.png">
+        <link rel="stylesheet" href="CSS/main.css">
+    </head>
+
+
+<body>
+
+<!-- HEADER -->
+<header> 
+    <nav class="navbar1">
+
+        <div class="menuSmall">
+                <a href="index.html"><img src="Images/prueba.png" alt="Logo" class="logoDePagina"></a>
+                    <ul>
+                    <li><span class="iconify iconSearchMS icon" data-icon="feather:search" data-inline="false"></span></li>
+                    <li><a href="#"><span class="iconify iconCart icon" data-icon="fluent:cart-16-regular" data-inline="false"></span></a></li>
+                    <li><a href="#"><span class="iconify menuHamburguer icon" data-icon="whh:menu" data-inline="false"></span></a></li>
+                    </ul>
+        </div>
+
+        <div class="menuDesktop">
+            <div class="flexLogo">
+                <div>
+                    <a href="index.html"><img src="Images/prueba.png" alt="Logo" class="logoDePagina"></a>
+                </div>
+
+
+
+                <div class="registro">
+                    <ul>
+                        <li><a href="#" class="cuenta">Iniciar Sesión</a></li>
+                        <li><span>/</span></li>
+                        <li><a href="#" class="cuenta">Registrarse</a></li>
+
+                        <li type="button" class="position-relative"><div class="compras"> Mi compra
+                            <span class="iconify iconCart" data-icon="fluent:cart-16-regular" data-inline="false"></span></div>
+                            <span class="badge rounded-pill badgeCart">
+                                0
+                            <span class="visually-hidden">unread messages</span>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+                    <div class="menuBar">
+                        <ul>
+                            <li><a href="index.html" class="navLi">HOME</a></li>
+                            <li><a href="productos.html">PRODUCTOS</a></li>
+                            <li><a href="armatudiseno.html">ARMA TU DISEÑO</a></li>
+                            <li><a href="sobrenosotros.html">SOBRE NOSOTROS</a></li>
+                            <li><a href="contacto.html">CONTACTO</a></li>
+                        </ul>
+                        <div>
+                            <form action="#" class="buscador">
+                                <label for="buscador" hidden>Ingresa tu busqueda</label>
+                                <input type="text" id="buscador" required placeholder="Buscá un producto...">
+                                <button type="submit" class="btn btnForm">
+                                    <span class="iconify iconSearch" data-icon="feather:search" data-inline="false"></span>  
+                                </button>
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+        </div>     
+    </nav>
+</header> 
+
+<main>
+
+    <!-- ICONO DE WHATSAPP: Cambiar de seccion en el HTML -->
+<span class="iconify" data-icon="logos:whatsapp" data-inline="false" id="whatsapp"></span>
+
+    <h2>Contactate con nosotros</h2>
+
+    <section class="contacto">
+        <p class="contacto__text">¿Tenés alguna duda? Dejanosla a continuación y nos pondremos en contacto a la brevedad. </p>
+
+        <!-- ACA EMPIEZA EL FORM -->
+
+        <form action="#" class="contacto__form">
+            <label for="nombre" class="form__label">Nombre:</label>
+            <input type="text" class="form__input" placeholder="Ingresá tu nombre" id="nombre">
+
+            <label for="mail" class="form__label">Mail:</label> 
+            <input type="email" class="form__input" name="" id="mail" placeholder="usuario@ejemplo.com">
+            <div class="form__flex">
+                <label for="viejocliente" class="form__label">Ya soy cliente</label>
+                <input type="radio" id="viejocliente" name="cliente">
+
+                <label for="nuevocliente" class="form__label">Nuevo cliente</label>
+                <input type="radio" class="form__input" id="nuevocliente" name="cliente">
+            </div>
+
+            <label for="consulta" class="form__label">Consulta:</label> 
+            <textarea name="" class="form__input" id="consulta" cols="40" rows="10" placeholder="Escribinos acá tu consulta"></textarea>
+            
+            <div class="form__flex">
+                <label for="newsletter" class="form__label" hidden>Newsletter</label>
+                <input type="checkbox" class="form__input" id="newsletter"> Recibir nuestro Newsletter
+            </div>
+
+            <input type="submit" name="" id="submit" class="btn btn__form">
+    </form>
+
+
+        
+    </section>
+
+    <div class="productosFAQ">
+        <div class="faq">
+            <span class="iconify faqIcon" data-icon="ic:baseline-published-with-changes" data-inline="false"></span>
+            <h3>
+                Cambios y devoluciones
+            </h3>
+            <p> Conocé sobre nuestro botón de arrepentimiento</p>
+        </div>
+    
+
+        <div class="faq">
+            <span class="iconify faqIcon" data-icon="mdi:truck-fast-outline" data-inline="false"></span>
+            <h3>
+                Envíos a todo el país
+            </h3>
+            <p>Consultá tiempos y costos</p>
+        </div>
+
+        <div class="faq">
+            <span class="iconify faqIcon" data-icon="carbon:chat-bot" data-inline="false"></span>
+            <h3>
+                Asesorate
+            </h3>
+            <p>Te ayudamos a crear el espacio ideal para vos</p>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <section class="sectionFooter">
+        <div class="suscripcionFooter">
+            <label for="newsletter" hidden>Deja tu mail para suscribirte</label>
+            <input type="email" id="newsletter" required placeholder="usuario@ejemplo.com">
+            <button type="input">Suscribirme</button>
+        </div>
+        
+        <div class="redes">
+            <h3>Redes</h3>
+        <ul>
+            <li><a href="#">
+                <span class="iconify fb" data-icon="entypo-social:facebook" data-inline="false"></span>
+            </a></li>
+            <li><a href="#">
+                <span class="iconify ig" data-icon="ant-design:instagram-filled" data-inline="false"></span>
+            </a></li>
+            <li><a href="#"><span class="iconify pn" data-icon="fa:pinterest-square" data-inline="false"></span></a></li>
+        </ul>
+        </div>
+        
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <ul>
+            <li>Av. Tamborini 5400 - Villa Urquiza, CABA</li>
+            <li>+54 11 35433453</li> 
+            <li>contacto@olimpadesign.com</li>  
+            </ul>
+        </div>
+        
+        <div class="mapa">
+            <h3>Mapa de sitio</h3>
+        
+            <ul class="mapaList">
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        </section>
+    
+    <div class="pagosFooter">
+    <p>Metodos de Pago
+        Formas de envío
+    </p>
+    </div>
+    
+    <div class="copyright">
+        <p>
+        
+            Copyright &copy; 2021
+    
+        </p>
+    </div>
+    
+</footer>
+
+
+</body>
+</html>

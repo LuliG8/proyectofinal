@@ -1,0 +1,724 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* GENERIC STYLES */
+
+h1{
+    color: #B28604;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h1 span{
+    display: none;
+    /* color: #202020;
+    font-weight: 200;
+    font-size: 36px;
+    margin: 0%; */
+}
+
+
+h2{
+    color: #C8A446;
+    text-align: center;
+    text-decoration: underline #C8A446 .1em;
+    text-underline-offset: .4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+h3{
+    color: #3E3536;
+    font-size: 1.4rem;
+}
+
+li{
+    color: #4F4141;
+}
+
+p{
+    /* color: #D8BCA8; */
+    word-spacing: 1px;
+    line-height: 15px;
+    font-size: 12px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.negrita {
+    color: black;
+    font-weight: 600;
+}
+
+#whatsapp{
+    width: 5%;
+    height: 7%;
+    position: fixed;
+    bottom: 2%;
+    right: 0%;
+    z-index: 1;
+}
+
+/* INDEX: HERO SECTION */
+
+.hero{
+    margin-top: 1%;
+    border-top: 5px #4F4141 solid; 
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    /* background: url(../Images/Headerimage.png) no-repeat center/cover; */
+}
+
+.heroInner {
+    text-align: center;
+    max-width: 50vw;
+}
+
+
+.hero p{
+    font-size: 1rem;
+    font-weight:lighter;
+    color: black;
+    padding: 1em;
+    line-height: 1.5rem;
+    margin-bottom: 1.6em;
+}
+
+.heroInner .btn{
+    max-width: 10em;
+    margin-top: 2em;
+    padding: .8em;
+    color: white;
+    background-color: #F3D848;
+    font-size: 1.2rem;
+    border-radius: .4em;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #F3D848;
+    box-shadow: 3px 3px 50px rgba(0, 0, 0, .15);
+}
+
+/* .sectionBelowHero{
+    background-color: #E6E2E3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 2em 0 2em 0;
+}
+
+.iconSectionHero{
+    color: white;
+    width: 4em;
+    height: 4em;
+} 
+
+.sectionBelowHero h3{
+    margin: .3em 0 .3em 0;
+} */
+
+/* FIN HERO SECTION */
+
+/* INDEX: IG MESSAGE, SUSCRIPCION Y METODOS DE PAGO*/
+
+.instagramMsg{
+    display: flex;
+    justify-content: center;
+    font-size: .7rem;
+    font-style: italic;
+}
+
+.suscribirIndex{
+    display: flex;
+    flex-direction: row wrap;
+    background-color: whitesmoke;
+    text-align: right;
+    margin: 2em 0 2em 0;
+    padding: 2em 0 2em 0;
+}
+
+.suscribeImg{
+    background: url("../Images/suscribe.jpg") no-repeat center/cover;
+    width: 100%;
+    max-width: 40vw;
+}
+
+.suscripcionIndex {
+    display: flex;
+    flex-flow: row;
+}
+
+.suscripcionIndex input {
+    /* width: 100%; */
+    height: 1.6em;
+    border: .15em solid white;
+    border-top-left-radius: .4em;
+    border-bottom-left-radius: .3em;
+    overflow: hidden;
+    padding: .3em .7em;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.suscripcionIndex button{
+    background-color: lightgray;
+    width: 110px;
+    height: 2.3em;
+    color: black;
+    border: none;
+    border-top-right-radius: .3em;
+    /* border-bottom-right-radius: .3em; */
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: center;
+    font-size: .7em;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.suscribeForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin: 0 2em 0 2em;
+}
+
+.mediosDePago{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em 0 2em 0;
+}
+
+.metodos{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.metodos p {
+    margin: 1em 0 1em 0;
+}
+
+.metodos img {
+    width: 10em;
+}
+
+/* PRODUCTOS - INDEX*/
+
+.titulosEmojis {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: .7em;
+}
+
+.cardProdGallery{
+    display: flex;
+    flex-flow: column;
+    border-radius: .6em;
+    overflow: hidden;
+    box-shadow: 0 5px 15px -5px black;
+	transition: 300ms ease-in-out;
+}
+
+.productosGallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+    margin: .5em 2em 3em 2em;
+}
+
+.cardImg{
+    width: 100%;
+	flex-basis: 200px;
+}
+
+#prod1{
+    background: url("../Images/nl-prod1.jpg") no-repeat 90% 80%/cover;
+}
+
+#prod2{
+    background: url("../Images/nl-prod2.jpg") no-repeat center/cover;
+}
+
+#prod3{
+    background: url("../Images/nl-prod3.jpg") no-repeat 100% 90%/cover;
+}
+
+#prod4{
+    background: url("../Images/nl-prod4.jpg") no-repeat center/cover;
+}
+
+#prodProm1{
+    background: url("../Images/pd-prod1.jpg") no-repeat 100% 100%/cover;
+}
+
+#prodProm2{
+    background: url("../Images/pd-prod2.jpg") no-repeat center/cover;
+}
+
+#prodProm3{
+    background: url("../Images/pd-prod.jpg") no-repeat center/cover;
+}
+
+#prodProm4{
+    background: url("../Images/pd-prod4.jpg") no-repeat 100% 30%/cover;
+}
+
+.cardText{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 1em;
+    padding: .4em 0 .4em 0;
+}
+
+.productos hr{
+    width: 60%;
+    margin: auto;
+    border: 0,1px;
+    border-style: solid;
+    border-color: #77B255;
+}
+
+.productos span{
+    color: #DCC133;
+}
+
+.verMas {
+    color: #B2AA0D;
+    font-weight: 600;
+}
+
+/* CATEGORIAS INDEX */
+
+.categoriasIndex {
+    display: grid;
+    margin: 3% 1%;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 30px, 30px;
+}
+
+.categoriasIndex img {
+    width: 100%;
+    height: 100%;
+}
+
+.cardCategory img:hover{
+    /* filter: grayscale(90%) */
+    opacity: 0.7;
+}
+
+/* FAQ INDEX */
+
+
+/* ARMA TU DISEÑO - INDEX*/
+
+.armaTuDiseno {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 2em auto;
+    /* width: 100vw; */
+    height: 250px;
+    background: url("https://i.pinimg.com/564x/c9/e4/c0/c9e4c0a1e98796560ada763fa7e2d22c.jpg");
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 2em;
+}
+
+.armaTuDiseno a{
+    display: inline-block;
+    padding: 1em;
+    color: #B2AA0D;
+    border: 1px solid #B2AA0D;
+    border-radius: .3em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.armaTuDiseno p{
+    color: black;
+    line-height: 1.3em;
+    max-width: 70vw;
+    font-size: .9rem;
+}
+
+/* ARMA TU DISEÑO */
+
+.armaTD{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.armaTuDiseno ol{
+    list-style-type: upper-roman;
+    text-align: center;
+}
+
+/* .armaTuDiseno hr{
+    width: 100%;
+    border-top: 1px;
+    border-style: solid;
+    border-color: #D8BCA8,;
+} */
+
+.galeriaDeDisenos h2{
+    margin-bottom: 1em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.armaTuDisenoTabla ol{
+    list-style-type: upper-roman;
+}
+
+.categorias h3{
+    color: white;
+}
+
+form button{
+    color: white;
+    background-color: #4F4141;
+}
+
+form span{
+    color: #737B7D;
+}
+
+.galeriaDeDisenos{
+    margin-top: 1em;
+}
+
+.galeriaDeDisenos div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px 5px 20px 5px;
+}
+
+.galeriaDeDisenos > img{
+    width: 150px;
+    height: 150px;
+}
+
+
+/* SOBRE NOSOTROS */
+
+
+/* .primaryArticle img{
+    width: 60%;
+    height: 70%;
+}
+
+.primaryArticle span{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+}
+
+.flexArtc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em 2em 2em 2em;
+    gap: 50px;
+}
+
+.secondaryArticle{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.secondaryArticle p{
+    max-width: 80%;
+}
+
+.galleryUs img{
+    width: 100px;
+    height: 100px;
+}
+
+.galleryUs {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2em;
+    gap: 1em;
+} */
+
+a.formTeam {
+    color: #6D8723;
+    margin: 3% 30% 5% 30%;
+}
+
+
+/* CONTACTO */
+
+.contactoFAQ a{
+    color: #A5B20D;
+}
+
+.contactoFAQ div{
+    display: inline-block;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.contactForm{
+    margin-top: 3%;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.contacto {
+    margin-left: 2em;
+    max-width: 80%;
+}
+
+/* RESPONSIVE */
+
+header .menuSmall{
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .heroInner {
+        text-align: center;
+        max-width: 80vw;
+    }
+    
+    h1{
+        color: #B28604;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+
+    
+    .hero p{
+        font-size: .7rem;
+        font-weight:lighter;
+        color: black;
+        padding: 1em;
+        margin-bottom: 1.6em;
+    }
+    
+    .heroInner .btn{
+        max-width: 10em;
+        margin-top: 2em;
+        padding: .8em;
+        color: white;
+        background-color: #F3D848;
+        font-size: 1rem;
+        border-radius: .4em;
+        text-transform: uppercase;
+    }
+    
+    .categoriasIndex {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .cardCategory{
+        height: 50vh;
+    }
+
+    .mediosDePago{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2em 0 2em 0;
+    }
+
+    .metodos{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .metodos p {
+        margin: 1em 0 1em 0;
+    }
+
+    .metodos img{
+        max-width: 100px;
+    }
+
+    .suscribirIndex{
+        display: flex;
+        flex-direction: row wrap;
+        background-color: #DADADA;
+        text-align: right;
+        margin: 2em 0;
+        padding: 2em 0;
+        background: url("../Images/suscribe.jpg") no-repeat center/cover;
+    }
+
+    .suscribeImg {
+        display: none;
+    }
+    
+    .suscribeForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        margin: 0 2em;
+        /* max-width:  */
+    }
+
+    .suscribeForm form {
+        display: flex;
+    }
+
+    .suscribeForm h3{
+        text-align: center;
+        color: white;
+        size: 1.5em;
+    }
+
+    .suscribeForm p{
+        display: none;
+    }
+
+    .suscribeForm span{
+        color: whitesmoke;
+        text-shadow: 2px 1px 3px rgba(0,0,0,0.6);
+        font-style: italic;
+        font-size: .6em;
+    }
+
+    footer{
+        background-color: #4F4141;
+    }
+    
+    .sectionFooter{
+        display: flex;
+        align-items: center;
+        padding-bottom: 2em;
+    }
+    
+    .copyright{
+        color: white;
+        text-align: center;
+    }
+    
+    .pagosFooter{
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+    
+    
+    .contacto li{
+        color: white;
+        font-size: .9rem;
+        padding: .2em;
+    }
+    
+    .redes ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .redes li{
+        margin: 0 .2em 0 .2em;
+    }
+    
+    .redes a{
+        font-size: 2em;
+    }
+    
+    .suscripcionFooter{
+        display: none;
+    } 
+
+}
+
+@media only screen and (max-width: 880px) {
+
+h3{
+    font-size: .8rem;
+}
+
+.menuDesktop {
+    display: none;
+} 
+
+header {
+    border-bottom: 1px solid #D8BCA8;
+    opacity: 0.9;
+}
+
+.iconSearchMS {
+    width: 1.5em;
+    height: 1.5em;
+    color: #B28604;
+}
+
+.iconCart {
+    width: 2em;
+    height: 2em;
+}
+
+.menuHamburguer {
+    color: #4F4141;
+}
+
+header .menuSmall {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .3em .5em .3em .5em;
+}
+
+.logoDePagina {
+    width: 6em;
+}
+
+header .menuSmall ul{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: .8em;
+    align-items: center;
+}
+}

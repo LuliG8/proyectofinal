@@ -1,0 +1,17 @@
+@import url(../CSS/pages/bootstrap.css); 
+
+
+
+@import url(../CSS/pages/header.css); @import url(../CSS/pages/footer.css);
+
+@import url(../CSS/pages/banner.css);
+
+@import url(../CSS/pages/productos.css);
+
+@import url(../CSS/pages/faq.css);
+
+@import url(../CSS/pages/btn.css);
+
+@import url(pages/submenu.css);
+
+@import url(styles.css);

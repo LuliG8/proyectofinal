@@ -1,0 +1,51 @@
+.menu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    position: relative;
+    padding: 0 5%;
+    background-color: white;
+    min-height: 40px;
+}
+
+.menuItem > a {
+    color: #DDAD19;
+}
+
+.submenu {
+    display: none;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    min-height: 80px;
+}
+
+.subItemIcon {
+    color: white;
+    font-size: 2.7em;
+}
+
+.submenuItem a {
+    color: white;
+    font-size: 1em;
+}
+
+.menuItem:hover > .submenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3em;
+}
+
+.subItemIcon:hover {
+    color: #DDAD19;
+}
+
+.submenuItem a:hover {
+    color: #DDAD19;
+}

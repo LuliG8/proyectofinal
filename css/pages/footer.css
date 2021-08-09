@@ -1,0 +1,95 @@
+/* FOOTER */
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h3{
+    padding-top: 3em;
+    color:white;
+    font-size: 1rem;
+    margin-bottom: .6em;
+}
+
+footer a{
+    color:white;
+    font-size: .7rem;
+}
+
+
+.sectionFooter{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding-bottom: 2em;
+}
+
+.copyright p{
+    color: white;
+}
+
+.pagosFooter{
+    color: white;
+    background-color: whitesmoke;
+}
+
+.pagosFooter p{
+    color: black;
+}
+
+.contacto li{
+    color: white;
+    font-size: .7rem;
+    padding: .2em;
+}
+
+.redes ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.redes li{
+    margin: 0 .2em 0 .2em;
+}
+
+
+.redes a{
+    font-size: 2em;
+}
+
+.redes a:hover{
+    transform: scale(1.5)
+}
+
+.ig {
+    font-size: 1.3em;
+}
+
+.fb {
+    font-size: 1.1em;
+}
+
+.suscripcionFooter{
+    padding-top: 1%;
+}
+
+
+@media only screen and (max-width: 800px) {
+    /* FOOTER */
+
+.sectionFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1em;
+}
+
+footer h3{
+    padding-top: 1em;
+}
+
+}

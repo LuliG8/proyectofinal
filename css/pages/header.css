@@ -1,0 +1,168 @@
+/* HEADER
+
+/* NAV BAR */
+
+/* .menuBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 3px solid #D8BCA8;
+    border-bottom: 5px solid #D8BCA8;
+    width: 100%;
+    gap:150px;
+}
+
+.menuBar a{
+    font-size: 14px;
+    color: #4F4141;
+}
+
+.menuBar ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 1% 1% 1% 1%;        
+}
+
+.menuBar li{
+    text-align: center;
+    padding: 0 2em;
+} */
+
+/* .menuBar li:hover a{
+    color: #B28604;
+    padding: 4px;
+    border-bottom: 2px solid #B28604;
+}
+
+.menuBar .navLi{
+    color: #F3D848;
+    font-weight:600;
+    border-bottom: 0px solid #ffffff;
+} */
+
+/* Registro, Logo y carrito de compras */
+
+
+/* .flexLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0em 3em 0 4em;
+}
+
+.logoDePagina{
+    width: 10em;
+    padding: .7em;
+}
+
+.registro ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.registro li{
+    padding-left: 1em;
+    font-size: 0.8em;
+}
+
+.registro a{
+    color: black;
+    font-size: .9em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .buscador input {
+    width: 100%;
+    border: .14em solid #daa400;
+    border-top-left-radius: .5em;
+    border-bottom-left-radius: .5em;
+    text-align: center;
+    overflow: hidden;
+    padding: .3em .7em;
+    outline: none;
+}
+
+.btnForm{
+    background-color: #daa400;
+    width: 60px;
+    color: white;
+    border: none;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    outline: none;
+    cursor: pointer;
+    margin-right: 3em;
+}
+
+.iconSearch {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 800;
+    left: 2em;
+    top: 2em;
+    text-align: center;
+} */
+
+/* .compras {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #D8BCA8;
+    border-radius: 2em;
+    margin-left: .5em;
+    padding: .3em 1em;
+    gap: .4em;
+    // hacer extend
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    position: relative;
+} */
+
+/* .badgeCart {
+    background-color: #daa400;
+    border: 2px solid white;
+    position: absolute;
+    top: -3px;
+    right: -7px;
+}
+
+.iconCart{
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+
+.registro li:hover a{
+    color: #B28604;
+}
+
+a.registro{
+    color: #4F4141;
+}
+
+.compras:hover{
+    border: .5px solid #B28604;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 1;
+    box-shadow: 0px 1px 6px 0 #4F4141;
+    z-index: 20;
+} */

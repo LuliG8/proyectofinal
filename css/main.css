@@ -1,0 +1,349 @@
+/* NAV BAR */
+@import url(../css/backupmain.css);
+@import url(../css/backupstyles.css);
+.menuBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 3px solid #D8BCA8;
+  border-bottom: 5px solid #D8BCA8;
+  width: 100%;
+  gap: 150px;
+}
+
+.menuBar a, .menuBar .compras {
+  font-size: 14px;
+  color: #4F4141;
+}
+
+.menuBar ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 1% 1% 1% 1%;
+}
+
+.menuBar li {
+  text-align: center;
+  padding: 0 2em;
+}
+
+.menuBar li:hover a, .menuBar li:hover .compras {
+  color: #B28604;
+  padding: 4px;
+  /* border-bottom: 2px solid #B28604; */
+}
+
+.menuBar .navLi {
+  color: #F3D848;
+  font-weight: 600;
+  border-bottom: 0px solid #ffffff;
+}
+
+/* Registro, Logo y carrito de compras */
+.flexLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0em 3em 0 4em;
+}
+
+.logoDePagina {
+  width: 10em;
+  padding: 0.7em;
+}
+
+.registro ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.registro li {
+  padding-left: 1em;
+  font-size: 0.8em;
+}
+
+.registro a, .registro .compras {
+  color: black;
+  font-size: 0.9em;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.buscador {
+  display: flex;
+  flex-direction: row;
+}
+
+.buscador input {
+  /* width: 100%; */
+  border: 0.14em solid #daa400;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  text-align: center;
+  overflow: hidden;
+  padding: 0.3em 0.7em;
+  outline: none;
+}
+
+.btnForm {
+  background-color: #daa400;
+  width: 60px;
+  color: white;
+  border: none;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  outline: none;
+  cursor: pointer;
+  margin-right: 3em;
+}
+
+.iconSearch {
+  color: white;
+  font-size: 1.6em;
+  font-weight: 800;
+  left: 2em;
+  top: 2em;
+  text-align: center;
+}
+
+.compras {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #D8BCA8;
+  border-radius: 2em;
+  margin-left: 0.5em;
+  padding: 0.3em 1em;
+  gap: 0.4em;
+  position: relative;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.badgeCart {
+  background-color: #daa400;
+  border: 2px solid white;
+  position: absolute;
+  top: -3px;
+  right: -10px;
+}
+
+.iconCart {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.registro li:hover a, .registro li:hover .compras {
+  color: #B28604;
+}
+
+a.registro, .registro.compras {
+  color: #4F4141;
+}
+
+.compras:hover {
+  border: 0.5px solid #B28604;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #FFFFFF;
+  z-index: 1;
+  box-shadow: 0px 1px 6px 0 #4F4141;
+  z-index: 20;
+}
+
+.hero__img {
+  background: url("https://images.unsplash.com/photo-1592923750193-0caa23a10e1f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80") no-repeat 100% 40%/cover;
+  height: 200px;
+}
+.hero__img h2 {
+  color: white;
+}
+
+.aboutus {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutus__article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2em 0;
+}
+.aboutus__article2 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2em 0;
+}
+.aboutus__article3 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  max-width: 77%;
+}
+.aboutus__text {
+  margin: 0;
+  max-width: 50%;
+  margin-bottom: 2em;
+}
+.aboutus__text2 {
+  max-width: 95%;
+}
+.aboutus__img {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  border-radius: 50%;
+}
+.aboutus span {
+  text-align: center;
+}
+.aboutus #aboutus__img1 {
+  background: url("../Images/us-couple.jpg") no-repeat 50% 100%/cover;
+}
+.aboutus #aboutus__img2 {
+  background: url("https://blythewoodworks.com/wp-content/uploads/2018/09/extra-large-dog-house-with-porch-and-dech.jpg") no-repeat 100% 80%/cover;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.contacto {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 1em 5em;
+}
+.contacto .contacto__text {
+  font-size: 0.8em;
+  margin: 0;
+  padding-bottom: 2em;
+}
+
+.contacto__form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.contacto__form .form__label {
+  font-size: 0.9em;
+  margin: 0.6em;
+}
+.contacto__form .form__input {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8em;
+  padding: 0.3em;
+  border: none;
+  border-bottom: 2px solid #B28604;
+  background-color: whitesmoke;
+}
+.contacto__form .form__input:focus {
+  outline: #FFCB00;
+}
+.contacto__form .form__flex {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 1em;
+}
+.contacto__form .btn__form {
+  display: inline-block;
+  background-color: #B28604;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 0.7em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  max-width: 100px;
+  margin: 1em;
+}
+
+.diseno__section p {
+  margin-bottom: 0.8em;
+}
+
+.diseno__article {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.diseno__article .diseno__container {
+  justify-content: center;
+}
+.diseno__article .container__check {
+  display: inline;
+  gap: 1em;
+}
+.diseno__article .diseno__btn {
+  margin-top: 0;
+}
+
+.container__galeria {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1em;
+}
+.container__galeria .galeria__img img {
+  width: 150px;
+  height: 150px;
+}
+
+.belowhero {
+  background-color: #E6E2E3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 2em 0;
+}
+.belowhero .belowhero__container--borderright {
+  padding-right: 2em;
+  border-right: 2px solid white;
+}
+.belowhero .belowhero__icon {
+  color: white;
+  width: 3em;
+  height: 3em;
+  margin-bottom: 0.5em;
+}
+.belowhero .belowhero__container h3 {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 700px) {
+  .belowhero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1em 0 1.4em 0;
+    height: auto;
+  }
+
+  .belowhero__icon {
+    color: white;
+    width: 1.5em;
+    height: 1.5em;
+  }
+}

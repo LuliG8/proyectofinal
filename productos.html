@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">  
+        <title>Olimpa Design</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <link rel="icon" href="Images/icon.png">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+
+<body>
+<!-- HEADER -->
+<div class="banner">
+    <p>Envíos gratis dentro de CABA &nbsp &nbsp • &nbsp &nbsp Envíos a todo el país  &nbsp &nbsp • &nbsp &nbsp  Hasta 12 cuotas sin interés</p>
+
+</div> 
+<header> 
+    <nav class="navbar1">
+
+        <div class="menuSmall">
+                <a href="index.html"><img src="Images/prueba.png" alt="Logo" class="logoDePagina"></a>
+                    <ul>
+                    <li><span class="iconify iconSearchMS icon" data-icon="feather:search" data-inline="false"></span></li>
+                    <li><a href="#"><span class="iconify iconCart icon" data-icon="fluent:cart-16-regular" data-inline="false"></span></a></li>
+                    <li><a href="#"><span class="iconify menuHamburguer icon" data-icon="whh:menu" data-inline="false"></span></a></li>
+                    </ul>
+        </div>
+
+        <div class="menuDesktop">
+            <div class="flexLogo">
+                <div>
+                    <a href="index.html"><img src="Images/prueba.png" alt="Logo" class="logoDePagina"></a>
+                </div>
+
+
+
+                <div class="registro">
+                    <ul>
+                        <li><a href="#" class="cuenta">Iniciar Sesión</a></li>
+                        <li><span>/</span></li>
+                        <li><a href="#" class="cuenta">Registrarse</a></li>
+
+                        <li type="button" class="position-relative"><div class="compras"> Mi compra
+                            <span class="iconify iconCart" data-icon="fluent:cart-16-regular" data-inline="false"></span></div>
+                            <span class="badge rounded-pill badgeCart">
+                                0
+                            <span class="visually-hidden">unread messages</span>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+                    <div class="menuBar">
+                        <ul>
+                            <li><a href="index.html" class="navLi">HOME</a></li>
+                            <li><a href="productos.html">PRODUCTOS</a></li>
+                            <li><a href="armatudiseno.html">ARMA TU DISEÑO</a></li>
+                            <li><a href="sobrenosotros.html">SOBRE NOSOTROS</a></li>
+                            <li><a href="contacto.html">CONTACTO</a></li>
+                        </ul>
+                        <div>
+                            <form action="#" class="buscador">
+                                <label for="buscador" hidden>Ingresa tu busqueda</label>
+                                <input type="text" id="buscador" required placeholder="Buscá un producto...">
+                                <button type="submit" class="btn btnForm">
+                                    <span class="iconify iconSearch" data-icon="feather:search" data-inline="false"></span>  
+                                </button>
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+        </div>     
+    </nav>
+</header> 
+
+
+<main>
+
+    <!-- ICONO DE WHATSAPP: Cambiar de seccion en el HTML -->
+<span class="iconify" data-icon="logos:whatsapp" data-inline="false" id="whatsapp"></span>
+
+    <!-- <div class="productosCategorias">
+        <ul>
+            <li><a href="#">Dormitorio <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+            <ul>
+                <li><a href="#">Camas</a></li>
+                <li><a href="#">Mesas</a></li>
+                <li><a href="#">Armarios</a></li>
+                <li><a href="#">Respaldos</a></li>
+                <li><a href="#">Zapateros</a></li>
+                <li><a href="#">Decoración</a></li>
+                <li><a href="#">Organizadores</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Cocina <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+            <ul>
+                <li><a href="#">Alacenas</a></li>
+                <li><a href="#">Mesas</a></li>
+                <li><a href="#">Sillas</a></li>
+                <li><a href="#">Taburetes</a></li>
+                <li><a href="#">Organizadores</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Living <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+            <ul>
+                <li><a href="#">Mesas</a></li>
+                <li><a href="#">Racks</a></li>
+                <li><a href="#">Bibliotecas</a></li>
+                <li><a href="#">Decoración</a></li>
+                <li><a href="#">Organizadores</a></li>
+                <li><a href="#">Lamparas</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Baño <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+            <ul>
+                <li><a href="#">Vanitory</a></li>
+                <li><a href="#">Toalleros</a></li>
+                <li><a href="#">Decoración</a></li>
+                <li><a href="#">Organizadores</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Iluminación <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+            <ul>
+                <li><a href="#">Lamparas colgantes</a></li>
+                <li><a href="#">Lamparas de pie</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Decoración <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+            <ul>
+                <li><a href="#">Estantes</a></li>
+                <li><a href="#">Bibliotecas</a></li>
+                <li><a href="#">Maceteros</a></li>
+                <li><a href="#">Otros</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Negocios <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+            <ul>
+                <li><a href="#">Mesas</a></li>
+                <li><a href="#">Sillas</a></li>
+                <li><a href="#">Mostrador</a></li>
+                <li><a href="#">Carteles</a></li>
+                <li><a href="#">Colgantes</a></li>
+                <li><a href="#">Decoración</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Organización <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+                <ul>
+                    <li><a href="#">Estantes</a></li>
+                    <li><a href="#">Bibliotecas</a></li>
+                    <li><a href="#">Zapateros</a></li>
+                    <li><a href="#">Armarios</a></li>
+                    <li><a href="#">Otros</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> -->
+
+    <div class="productosCategorias">
+        <ul class="menu">
+            <li class="menuItem"><a href="#">Dormitorio <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+                <ul class="submenu">
+                    <li class="submenuItem"><a href="#"><span class="iconify subItemIcon" data-icon="fluent:bed-16-filled" data-inline="false"></span></a></li>
+                    <li class="submenuItem"><a href="#"><span class="iconify subItemIcon" data-icon="vs:table-alt" data-inline="false"></span></a></li>
+                    <li class="submenuItem"><a href="#"><span class="iconify subItemIcon" data-icon="mdi:wardrobe" data-inline="false"></span></a></li>
+                    <!-- <li class="submenuItem"><a href="#">Respaldos</a></li>
+                    <li class="submenuItem"><a href="#">Zapateros</a></li>
+                    <li class="submenuItem"><a href="#">Decoración</a></li> -->
+                    <li class="submenuItem"><a href="#"><span class="iconify subItemIcon" data-icon="majesticons:dots-circle" data-inline="false"></span></a></li>
+                </ul>
+            </li>
+            <li class="menuItem"><a href="#">Cocina <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+                <ul class="submenu">
+                    <li class="submenuItem"><a href="#">Alacenas</a></li>
+                    <li class="submenuItem"><a href="#">Mesas</a></li>
+                    <li class="submenuItem"><a href="#">Sillas</a></li>
+                    <li class="submenuItem"><a href="#">Taburetes</a></li>
+                    <li class="submenuItem"><a href="#">Organizadores</a></li>
+                </ul>
+            </li>
+            <li class="menuItem"><a href="#">Living <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+                <ul class="submenu">
+                    <li class="submenuItem"><a href="#">Mesas</a></li>
+                    <li class="submenuItem"><a href="#">Racks</a></li>
+                    <li class="submenuItem"><a href="#">Bibliotecas</a></li>
+                    <li class="submenuItem"><a href="#">Decoración</a></li>
+                    <li class="submenuItem"><a href="#">Organizadores</a></li>
+                    <li class="submenuItem"><a href="#">Lamparas</a></li>
+                </ul>
+            </li>
+            <li class="menuItem"><a href="#">Baño <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+                <ul class="submenu">
+                    <li class="submenuItem"><a href="#">Vanitory</a></li>
+                    <li class="submenuItem"><a href="#">Toalleros</a></li>
+                    <li class="submenuItem"><a href="#">Decoración</a></li>
+                    <li class="submenuItem"><a href="#">Organizadores</a></li>
+                </ul>
+            </li>
+            <li class="menuItem"><a href="#">Iluminación <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+                <ul class="submenu">
+                    <li class="submenuItem"><a href="#">Lamparas colgantes</a></li>
+                    <li class="submenuItem"><a href="#">Lamparas de pie</a></li>
+                </ul>
+            </li>
+            <li class="menuItem"><a href="#">Decoración <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+                <ul class="submenu">
+                    <li class="submenuItem"><a href="#">Estantes</a></li>
+                    <li class="submenuItem"><a href="#">Bibliotecas</a></li>
+                    <li class="submenuItem"><a href="#">Maceteros</a></li>
+                    <li class="submenuItem"><a href="#">Otros</a></li>
+                </ul>
+            </li>
+            <!-- <li class="menuItem"><a href="#">Negocios <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+                <ul class="submenu">
+                    <li><a href="#">Mesas</a></li>
+                    <li><a href="#">Sillas</a></li>
+                    <li><a href="#">Mostrador</a></li>
+                    <li><a href="#">Carteles</a></li>
+                    <li><a href="#">Colgantes</a></li>
+                    <li><a href="#">Decoración</a></li>
+                </ul> -->
+            </li>
+            <li class="menuItem"><a href="#">Organización <span class="iconify" data-icon="dashicons:arrow-down" data-inline="false"></span></a>
+                <ul class="submenu">
+                    <li><a href="#">Estantes</a></li>
+                    <li><a href="#">Bibliotecas</a></li>
+                    <li><a href="#">Zapateros</a></li>
+                    <li><a href="#">Armarios</a></li>
+                    <li><a href="#">Otros</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="banner">
+        <p class="bannerUnderNav"> Disfrutá los descuentos exclusivos en toda nuestra tienda durante el 1, 2 y 3 de Septimbre </p>
+    </div>
+
+    <section>
+        
+        <h2>Muebles para Dormitorio</h2>
+
+        <div class="cajaOrdenarPor"> 
+
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#" class="bc">Dormitorio</a></li>
+                  <li class="breadcrumb-item active bc" aria-current="page">Mesas</li>
+                </ol>
+              </nav>
+    
+                <label for="ordenarPor"></label>
+                <select name="ordenarPor" id="ordenarPor">
+                    <option value="masPopulares">Más Vendidos</option>
+                    <option value="ingreso">Más Nuevos</option>        
+                    <option value="descuentos">Mejores Descuentos</option>
+                    <option value="menorPrecio">Precio: Menor a Mayor</option>
+                    <option value="mayorPrecio">Precio: Mayor a Menor</option>
+                    <option value="aToZ">Ordenar: A - Z</option>
+                    <option value="zToA">Ordenar: Z - A</option>
+                </select>
+        </div>  
+
+
+
+            
+
+
+    <div class="listaDeProductos">
+        <div class="cardProds">
+
+            <div class="cardProdImg" id="producto1"></div>
+            <div class="cardProdTxt">
+                <p>Mesa de Luz Olimpia</p>
+                <span>$12.000</span>
+                <div class="btnProd"><a href="#">Comprar</a></div>
+            </div>
+        </div>
+
+        <div class="cardProds">
+            <div class="cardProdImg" id="producto2"></div>
+            <div class="cardProdTxt">
+                <p>Mesa de Luz Kuzco</p>
+                <span>$8.000</span>
+                <div class="btnProd"><a href="#">Comprar</a></div>
+            </div>
+        </div>
+
+        <div class="cardProds">
+            <div class="cardProdImg" id="producto3"></div>
+            <div class="cardProdTxt">
+                <p>Mesa de Luz Nymeria</p>
+                <span>$6.500</span>
+                <div class="btnProd"><a href="#">Comprar</a></div>
+            </div>
+        </div>
+
+        <div class="cardProds">
+            <div class="cardProdImg" id="producto4"></div>
+            <div class="cardProdTxt">
+                <p>Mesa de Luz Shenzi</p>
+                <span>$13.000</span>
+                <div class="btnProd"><a href="#">Comprar</a></div>
+            </div>
+        </div>
+
+        <div class="cardProds">
+            <div class="cardProdImg" id="producto5"></div>
+            <div class="cardProdTxt">
+                <p>Mesa de Luz Melek</p>
+                <span>$5.200</span>
+                <div class="btnProd"><a href="#">Comprar</a></div>
+            </div>
+        </div>
+
+        <div class="cardProds">
+            <div class="cardProdImg" id="producto6"></div>
+            <div class="cardProdTxt">
+                <p>Mesa de Luz Vitania</p>
+                <span>$8.300</span>
+                <div class="btnProd"><a href="#">Comprar</a></div>
+            </div>
+        </div>
+
+        <div class="cardProds">
+            <div class="cardProdImg" id="producto7"></div>
+            <div class="cardProdTxt">
+                <p>Mesa de Luz Silvestre</p>
+                <span>$9.100</span>
+                <div class="btnProd"><a href="#">Comprar</a></div>
+            </div>
+        </div>
+
+        <div class="cardProds">
+            <div class="cardProdImg" id="producto8"></div>
+            <div class="cardProdTxt">
+                <p>Cómoda Tina</p>
+                <span>$10.000</span>
+                <div class="btnProd"><a href="#">Comprar</a></div>
+            </div>
+        </div>
+
+        <div class="cardProds">
+            <div class="cardProdImg"  id="producto9"></div>
+            <div class="cardProdTxt">
+                <p>Cómoda Marble Nerón</p>
+                <span>$13.500</span>
+                <div class="btnProd"><a href="#">Comprar</a></div>
+            </div>
+        </div>
+
+        <div class="cardProds">
+            <div class="cardProdImg" id="producto10"></div>
+            <div class="cardProdTxt">
+                <p>Rack TV Nala</p>
+                <span>$16.000</span>
+                <div class="btnProd"><a href="#">Comprar</a></div>
+            </div>
+        </div>
+
+        <div class="cardProds">
+            <div class="cardProdImg" id="producto11"></div>
+            <div class="cardProdTxt">
+                <p>Rack XL Agustina</p>
+                <span>$23.000</span>
+                <div class="btnProd"><a href="#"><p> Comprar</p></a></div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </article>
+        
+    </section>
+
+
+    <div class="productosFAQ">
+        <div class="faq faqBorder">
+            <span class="iconify faqIcon" data-icon="ic:baseline-published-with-changes" data-inline="false"></span>
+            <h3>
+                Cambios y devoluciones
+            </h3>
+            <p> Conocé sobre nuestro botón de arrepentimiento</p>
+        </div>
+    
+
+        <div class="faq faqBorder">
+            <span class="iconify faqIcon" data-icon="mdi:truck-fast-outline" data-inline="false"></span>
+            <h3>
+                Envíos a todo el país
+            </h3>
+            <p>Consultá tiempos y costos</p>
+        </div>
+
+        <div class="faq">
+            <span class="iconify faqIcon" data-icon="carbon:chat-bot" data-inline="false"></span>
+            <h3>
+                Asesorate
+            </h3>
+            <p>Te ayudamos a crear el espacio ideal para vos</p>
+        </div>
+    </div>
+
+</main>
+
+
+<footer>
+    <section class="sectionFooter">
+        <div class="suscripcionFooter">
+            <label for="newsletter" hidden>Deja tu mail para suscribirte</label>
+            <input type="email" id="newsletter" required placeholder="usuario@ejemplo.com">
+            <button type="input">Suscribirme</button>
+        </div>
+        
+        <div class="redes">
+            <h3>Redes</h3>
+        <ul>
+            <li><a href="#">
+                <span class="iconify fb" data-icon="entypo-social:facebook" data-inline="false"></span>
+            </a></li>
+            <li><a href="#">
+                <span class="iconify ig" data-icon="ant-design:instagram-filled" data-inline="false"></span>
+            </a></li>
+            <li><a href="#"><span class="iconify pn" data-icon="fa:pinterest-square" data-inline="false"></span></a></li>
+        </ul>
+        </div>
+        
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <ul>
+            <li>Av. Tamborini 5400 - Villa Urquiza, CABA</li>
+            <li>+54 11 35433453</li> 
+            <li>contacto@olimpadesign.com</li>  
+            </ul>
+        </div>
+        
+        <div class="mapa">
+            <h3>Mapa de sitio</h3>
+        
+            <ul class="mapaList">
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        </section>
+    
+    <div class="pagosFooter">
+    <p>Metodos de Pago
+        Formas de envío
+    </p>
+    </div>
+    
+    <div class="copyright">
+        <p>
+        
+            Copyright &copy; 2021
+    
+        </p>
+    </div>
+    
+</footer>
+
+</body>
+</html>
