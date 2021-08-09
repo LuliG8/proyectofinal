@@ -74,6 +74,14 @@ a{
 
 /* INDEX: HERO SECTION */
 
+.banner{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
 .hero{
     margin-top: 1%;
     border-top: 5px #4F4141 solid; 
